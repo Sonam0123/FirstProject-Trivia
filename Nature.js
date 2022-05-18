@@ -12,7 +12,9 @@ let questionIndex = 0
 let resultDiv = document.querySelector(".answerDiv")
 let questionsAnswered = 0;
 
-
+homePageBtn.addEventListener('click', ()=>{
+    document.location.href="index.html"
+})
 startBtn.addEventListener('click', startGame)
 
 function startGame(){
@@ -130,7 +132,7 @@ function lastQuestion() {
         startBtn.classList.remove('hide')
         startBtn.innerText = 'Restart'
         startBtn.addEventListener('click', () => {
-            window.location.reload()
+            document.location.href="Nature.html";
         })
         }
     }
