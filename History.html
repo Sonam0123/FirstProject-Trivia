@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="stylesheet" href="History.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Coda&family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="head">Can you pass Global History?</h1>
+    <div class="answer">
+        <h2 class="answerDiv"></h2>
+    </div>
+    <div id="count"></div>
+    <h2 class="answerDiv">Your Score :<span id="score">0</span></h2>
+    <div id="game">
+        <h2 id="question" class=" hide">Question text</h2>
+        <button id="true" class="choice hide">YAY</button>
+        <button id="false" class="choice hide">NAY</button>
+   <div>
+        <button id="start">Let's Start</button>
+
+    </div>
+    </div>
+    <button id="homepage" onclick="history.back()">Go Back</button>
+    <script src="History.js"></script>
+</body>
+</html>
