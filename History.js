@@ -3,6 +3,8 @@ const submit = document.querySelector("submit")
 const choice = document.querySelectorAll("button")
 const startBtn = document.querySelector("#start")
 const homePageBtn = document.querySelector('#homepage')
+const modalText = document.querySelector('#modalText')
+
 let scoreNum = document.querySelector("#score")
 let question = document.querySelector("#question");
 let score = 0
@@ -119,18 +121,20 @@ function lastQuestion() {
         question.classList.add('hide')
         startBtn.classList.remove('hide')
         homePageBtn.classList.remove('hide')
+        modal.classList.remove('hide')
+        modalText.innerText= 'Congratulations, You passed!'
         startBtn.innerText = 'Restart'
-        alert("You passed!");
         startBtn.addEventListener('click', () => {
             window.location.reload()
         })
     }else if(questionsAnswered === questionsArray.length - 1 && score <= 7) {
-        alert("Maybe in the next life");
         yay.classList.add('hide')
         nay.classList.add('hide')
         question.classList.add('hide')
         startBtn.classList.remove('hide')
         homePageBtn.classList.remove('hide')
+        modal.classList.remove('hide')
+        modalText.innerText = 'Failed, Maybe in the next life.'
         startBtn.innerText = 'Restart'
         startBtn.addEventListener('click', () => {
             document.location.href="History.html";
@@ -145,3 +149,11 @@ function lastQuestion() {
 .catch((error) => {
 console.error(error);
 })
+
+const modal = document.getElementById("myModal");
+const span = document.querySelector(".close");
+
+span.onclick = function() {
+    console.log('click');
+    modal.style.display = "none";
+}

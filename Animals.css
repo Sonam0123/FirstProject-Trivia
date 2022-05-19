@@ -156,3 +156,42 @@ label {
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
+.element {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background: #eee;
+  }
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+#modalText{
+    font-family: inherit;
+    font-size: 40px;
+}
+.close {
+    color: #aaaaaa;
+    z-index: 100;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
