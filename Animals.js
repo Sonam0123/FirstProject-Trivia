@@ -124,7 +124,6 @@ function lastQuestion() {
         homePageBtn.classList.remove('hide')
         modal.classList.remove('hide')
         modalText.innerText= 'Congratulations, You passed!'
-
         startBtn.innerText = 'Restart'
         startBtn.addEventListener('click', () => {
             window.location.reload()

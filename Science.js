@@ -1,7 +1,11 @@
 const game = document.querySelector("#game")
 const submit = document.querySelector("submit")
 const choice = document.querySelectorAll("button")
-const startBtn = document.querySelector("#start")
+const startBtn = document.querySelector("#start");
+
+const model = document.querySelector('#myModal')
+
+// console.log(myModal);
 const homePageBtn = document.querySelector("#homepage")
 const modalText = document.querySelector('#modalText')
 
@@ -113,12 +117,13 @@ yay.addEventListener('click', () => {
 });
 
 function lastQuestion() {
-    if (questionsAnswered === questionsArray.length - 1 && score >= 6) {
+    if ((questionsAnswered === questionsArray.length - 1) && (score >= 6)) {
         
         yay.classList.add('hide')
         nay.classList.add('hide')
         question.classList.add('hide')
         startBtn.classList.remove('hide')
+        console.log(startBtn);
         homePageBtn.classList.remove('hide')
         modal.classList.remove('hide')
         modalText.innerText= 'Congratulations, You passed!'
@@ -130,13 +135,16 @@ function lastQuestion() {
         yay.classList.add('hide')
         nay.classList.add('hide')
         question.classList.add('hide')
-        homePageBtn.classList.remove('hide')
-        modal.classList.remove('hide')
-        modalText.innerText = 'Failed, Maybe in the next life.'
         startBtn.classList.remove('hide')
+        homePageBtn.classList.remove('hide')
+        console.log("sonam");
+        console.log(modal);
+        modal.classList.remove('hide')
+        console.log("herp");
+        modalText.innerText = 'Failed, Maybe in the next life.'
         startBtn.innerText = 'Restart'
         startBtn.addEventListener('click', () => {
-            document.location.href="Nature.html";
+            document.location.href="Science.html";
         })
         }
     }
@@ -149,7 +157,7 @@ function lastQuestion() {
 console.error(error);
 })
 
-const modal = document.getElementById("myModal");
+const modal = document.querySelector("#myModal");
 const span = document.querySelector(".close");
 
 span.onclick = function() {

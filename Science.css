@@ -183,6 +183,7 @@ label {
 }
 .close {
     color: #aaaaaa;
+    /* display: block; */
     z-index: 100;
     float: right;
     font-size: 28px;
