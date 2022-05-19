@@ -7,7 +7,7 @@ body {
     margin: 0; 
     padding: 0;
     background-color: white;
-    background-image: url("https://venturebeat.com/wp-content/uploads/2019/12/GettyImages-1134020821-e1587048223491.jpg?w=1200&strip=all");
+    background-image: url("https://dominicsharlette.com/wp-content/uploads/2019/01/cropped-banner-website-lightbulb.jpg");
     background-repeat: repeat-y;
     background-position: center;
     background-size: cover;
@@ -176,6 +176,7 @@ label {
     width: 40%;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 #modalText{
     font-family: inherit;

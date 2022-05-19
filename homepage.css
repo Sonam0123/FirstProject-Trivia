@@ -89,7 +89,7 @@
 }
 
 
-  .btn:hover {
+.btn:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
     transform: translateY(-0.1rem);
@@ -101,3 +101,38 @@
     box-shadow: none;
     transform: none;
   }
+  #modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    height: 100%;
+    width: 100%;
+}
+.modalconent {  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 40%;
+  height: 40%;
+  padding: 20px;
+  border-radius: 10px;
+}
+#modalHeader {
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+  text-decoration: underline;
+}
+#button {
+  float: right;
+}
+.modalText{
+  font-family: 'Kanit', sans-serif;
+  font-size: large;
+}
+ul {
+  padding-left: 10px;
+}
