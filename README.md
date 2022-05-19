@@ -4,10 +4,12 @@ Yay? or Nay? is a classic true or false trivia game where the user is challenged
 ![Screen Shot 2022-05-19 at 3 16 57 PM](https://user-images.githubusercontent.com/101905331/169387887-42855342-2382-4281-ac03-0bbe6a3e7317.png)
 ---
 ## Technologies Used
-HTML
-CSS
-Javascript
-Axios
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Axios</li>
+</ul>
 
  ---
 ## Installation instructions
