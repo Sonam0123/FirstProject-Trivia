@@ -34,4 +34,14 @@ To pass the trivia, you will have to answer atlest 8 questions right from each o
   <li>As a user, I should be able to play the category of my choice
 </li>
 </ul>
+---
+## Wireframes
 
+
+
+## Major Hurdles
+Some of the biggest hurdles were to keep track of the scores and questions as the user answered them.
+Another hurdle was creating conditions that showed whether the user passed or failed based on their scores.
+
+## Credits
+To my wonderful classmates that helped me throughout my project especially Chris, Bom, and Brian. Also to my instructor Leo!
