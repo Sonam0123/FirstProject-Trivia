@@ -2,7 +2,11 @@
 ---
 Yay? or Nay? is a classic true or false trivia game where the user is challenged with questions from the categories of their choice. There are four categories in total. They are Science, Animals, History, and General Knowledge.
 
-![Screen Shot 2022-05-19 at 3 16 57 PM](https://user-images.githubusercontent.com/101905331/169387887-42855342-2382-4281-ac03-0bbe6a3e7317.png)
+![Screen Shot 2022-05-19 at 4 03 31 PM](https://user-images.githubusercontent.com/101905331/169395332-824a0b41-a76b-4526-919e-c5055c37b142.png)
+![Screen Shot 2022-05-19 at 3 16 57 PM](https://user-images.githubusercontent.com/101905331/169395350-4eb30bcd-1ce8-4676-995d-465761854fbb.png)
+![Screen Shot 2022-05-19 at 4 03 50 PM](https://user-images.githubusercontent.com/101905331/169395363-007a0f70-0fed-40a3-a5b3-9287ad673b3e.png)
+
+
 ---
 ## Technologies Used
 <ul>
@@ -36,6 +40,9 @@ To pass the trivia, you will have to answer atlest 8 questions right from each o
 </ul>
 ---
 ## Wireframes
+
+![1af53f80-d2b0-11ec-903d-acb41abba853](https://user-images.githubusercontent.com/101905331/169395438-b5e1644c-9ea9-4871-be8c-a2efbdd5cd25.jpg)
+![116bd780-d2b0-11ec-98d5-efb9a37db89c](https://user-images.githubusercontent.com/101905331/169395452-4b81457a-7865-46e7-9f8a-ff75d4458ead.jpg)
 
 
 
