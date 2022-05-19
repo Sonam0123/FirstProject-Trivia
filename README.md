@@ -18,4 +18,20 @@ Clone the repo and the app should be able to run from the index.html in the brow
 
 ## Approach
 The main approach for this game was using an API from Open Trivia Database to get questions and answers for the categories.
-The trivia also had different 
+The trivia also had different categories to choose from and the number of questions to answer.
+
+## Passing and Failing
+To pass the trivia, you will have to answer atlest 8 questions right from each of them except for the science category where you will have to answer at least 6 questions right. After passing/failing, you can choose to restart the trivia or go back to the homepage and select another category.
+
+## User Stories
+<ul>
+  <li>As a user, I should be able to start a new trivia game
+</li>
+  <li>As a user, I should be able to click on a an answer choice and go to the next question
+</li>
+  <li>As a user, I should be able to keep track of my scores and how many questions are left
+</li>
+  <li>As a user, I should be able to play the category of my choice
+</li>
+</ul>
+
