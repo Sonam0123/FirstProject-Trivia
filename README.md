@@ -8,6 +8,7 @@ HTML
 CSS
 Javascript
 Axios
+
  ---
 ## Installation instructions
 Clone the repo and the app should be able to run from the index.html in the browser.
