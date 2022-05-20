@@ -132,6 +132,7 @@
 .modalText{
   font-family: 'Kanit', sans-serif;
   font-size: large;
+  padding-bottom: 1rem;
 }
 ul {
   padding-left: 10px;
