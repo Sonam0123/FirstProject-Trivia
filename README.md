@@ -39,6 +39,7 @@ To pass the trivia, you will have to answer atlest 8 questions right from each o
 </li>
 </ul>
 ---
+
 ## Wireframes
 
 ![1af53f80-d2b0-11ec-903d-acb41abba853](https://user-images.githubusercontent.com/101905331/169395438-b5e1644c-9ea9-4871-be8c-a2efbdd5cd25.jpg)
