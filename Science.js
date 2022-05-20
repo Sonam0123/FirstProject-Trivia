@@ -3,7 +3,6 @@ const submit = document.querySelector("submit")
 const choice = document.querySelectorAll("button")
 const startBtn = document.querySelector("#start");
 
-const model = document.querySelector('#myModal')
 
 // console.log(myModal);
 const homePageBtn = document.querySelector("#homepage")
