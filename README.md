@@ -1,6 +1,6 @@
 # Project: Yay? or Nay? trivia game
 ---
-<a href="https://pumkin-sonam-98d76e.netlify.app"Yay? or Nay?</a> is a classic true or false trivia game where the user is challenged with questions from the categories of their choice. There are four categories in total. They are Science, Animals, History, and General Knowledge.
+Yay? or Nay?(https://pumkin-sonam-98d76e.netlify.app) is a classic true or false trivia game where the user is challenged with questions from the categories of their choice. There are four categories in total. They are Science, Animals, History, and General Knowledge.
 
 ![Screen Shot 2022-05-19 at 4 03 31 PM](https://user-images.githubusercontent.com/101905331/169395332-824a0b41-a76b-4526-919e-c5055c37b142.png)
 ![Screen Shot 2022-05-19 at 3 16 57 PM](https://user-images.githubusercontent.com/101905331/169395350-4eb30bcd-1ce8-4676-995d-465761854fbb.png)
