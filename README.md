@@ -1,4 +1,4 @@
-# Project: Yay? or Nay? trivia game
+# Project: Yay? or Nay? Trivia Game
 ---
 [Yay? or Nay?](https://pumkin-sonam-98d76e.netlify.app) is a classic true or false trivia game where the user is challenged with questions from the categories of their choice. There are four categories in total. They are Science, Animals, History, and General Knowledge.
 
